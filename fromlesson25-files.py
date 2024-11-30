@@ -7,3 +7,18 @@
 #workers_file.close()
 
 
+
+######################  writing  ####################
+
+
+workers_file=open("textfile","a")
+#workers_file.write("\nthis is by appen mode two")
+list_of_phases=["\nfirst phase","\nsecond phase","\nthird phase"]
+workers_file.writelines(list_of_phases)  #to write multiple line
+workers_file.close()
+
+
+#################### test write file name not excist ###############
+# workers_file=open("textfile2","a")
+# workers_file.write("\nthis is by appen mode two")
+# workers_file.close()
