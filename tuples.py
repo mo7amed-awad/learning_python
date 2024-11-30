@@ -19,3 +19,13 @@ convert_month={
 print(convert_month["jan"])
 print(convert_month.get("feb"))
 print(convert_month.get("not","default message"))
+
+
+i=1
+while i<=10:
+    print(i)
+    i+=1
+else:
+    print("the condition is not true")
+
+print("the loop has ended")
