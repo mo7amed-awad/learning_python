@@ -13,3 +13,17 @@ print(len(text))
 print(text.index('l'))
 
 print(text.replace('l',''))
+
+######################## numbers #########################
+
+my_num=4
+print(str(my_num))
+
+print(max(4,5))
+print(pow(4,5))
+print(round(3.4))
+print(round(3.5))
+
+from math import *
+print(floor(3.5))
+print(ceil(3.5))
