@@ -27,3 +27,10 @@ print(round(3.5))
 from math import *
 print(floor(3.5))
 print(ceil(3.5))
+
+
+################## inputs #########################
+
+name= input("enter your name: ")
+
+print ("hello "+name)
