@@ -23,3 +23,14 @@ name="mohamed"
 unique_set=set(name)
 print(unique_set)
 
+################# error handling ####################
+
+try:
+    result=10/0
+    value=int(input("Enter a number: "))
+    print(value)  # if first line in try has error the rest of the try dosn't operated
+except ZeroDivisionError as err:
+    print(err)
+except ValueError as err2:
+    print(err2)
+print("sucess")
