@@ -11,4 +11,11 @@ is_hungry = True
 if is_hungry:
     print('go eat')
 
+convert_month={
+    "jan": "january",
+    "feb":"febraury"
+}
 
+print(convert_month["jan"])
+print(convert_month.get("feb"))
+print(convert_month.get("not","default message"))
